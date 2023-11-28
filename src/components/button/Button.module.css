@@ -1,0 +1,28 @@
+/* Button.module.css */
+
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #3498db; /* Color del borde */
+    color: #ffffff; /* Color del texto *//* Color de fondo del botón */
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .button:hover {
+    background-color: #2980b9; /* Cambia el color de fondo al pasar el ratón por encima */
+    border-color: #2980b9; /* Cambia el color del borde al pasar el ratón por encima */
+  }
+  
+  .button:focus {
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Sombra de enfoque */
+  }
+  
+  /* Agrega más estilos según sea necesario */
+  
